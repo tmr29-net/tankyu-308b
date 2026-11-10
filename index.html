@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>リダイレクト中...</title>
+    <script>
+        // 転送先のGoogleフォームURL
+        const urlA = "https://forms.gle/tr7YtTFK92Z9ZLdh7";
+        const urlB = "https://forms.gle/uX6RvAquNCJ4yT8p6";
+
+        // 50%の確率でどちらかに転送
+        const targetUrl = (Math.random() < 0.5) ? urlA : urlB;
+        window.location.href = targetUrl;
+    </script>
+</head>
+<body>
+    <p>アンケートページへ移動しています...</p>
+</body>
+</html>
